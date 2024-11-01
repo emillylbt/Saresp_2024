@@ -76,3 +76,25 @@ input {
     background-color: #1f1f1f;
     color: #e0e0e0;
 }
+/* Parte 3: Botões e Ajuste Final */
+input:focus {
+    border-color: #ff66b2; /* Bordas rosa ao focar */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff66b2; /* Rosa */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d94f8c; /* Rosa mais escuro ao passar o mouse */
+}
