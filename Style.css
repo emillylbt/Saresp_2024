@@ -44,3 +44,35 @@ input {
     border-radius: 4px;
     font-size: 14px;
 }
+
+/* Parte 2: Cores e Espaçamentos */
+body {
+    background-color: #1a1a1a; /* Fundo escuro */
+}
+
+.form-container {
+    background-color: #2e1a47; /* Roxo escuro */
+    padding: 25px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #ff66b2; /* Rosa */
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+label {
+    color: #e0e0e0; /* Cinza claro */
+    font-size: 15px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4d4d4d;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
